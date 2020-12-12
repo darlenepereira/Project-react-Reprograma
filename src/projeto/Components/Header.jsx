@@ -9,7 +9,7 @@ const Header = () => {
         <header>
             <div className='header-banner'>
 
-            <h1>Apadrinhe um Gatinho</h1>
+            <h1>Apadrinhe um gatinho</h1>
             <h3> Quer ter um lar mais divertido?
                 Então, a dica que nós damos a você é: A adote um gatinho ou...
             </h3>
