@@ -1,0 +1,23 @@
+.about-text{
+    width: 52rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem ;
+}
+ 
+.photos{
+    width: 60rem;
+    margin: auto;
+    padding-bottom: 3rem;
+    margin-top: 2.2rem;
+}
+
+
+.photos .gallery{
+    height: 10rem;
+    width: 90rem;
+}
+
+.icons{
+    margin-bottom: 4rem;
+}

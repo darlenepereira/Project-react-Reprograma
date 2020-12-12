@@ -1,0 +1,51 @@
+header{
+    height: 33rem;
+    background-image: url(../../Assets/BannerC.png);
+    background-size: 85rem;
+    background-repeat: no-repeat;
+
+}
+
+.header-banner h1{
+    font: 2.85rem/3.4375rem 'Amaranth';
+    font-weight: 700;
+    color: var(--title);
+    padding: 7.9375rem 0  1rem 0;
+}
+
+.header-banner{
+    margin: 0 0 1rem 4.375rem;   
+}
+
+.header-banner h3{
+    color: var(--title-secondary);
+    font: 1.75rem/2rem 'Lato';
+    font-weight: 600;
+    width: 26.75rem;
+    padding-bottom:1rem;
+}
+
+.header-banner p{
+    font:1rem/1.5625rem 'Montserrat';
+    font-weight: 300;
+    color: var(--text);
+    margin: 0;
+    text-align: left;
+    
+}
+
+.button-one{
+    margin-top:3.375rem;
+    outline: none;
+    cursor: pointer;
+}
+
+a:-webkit-any-route{
+    text-decoration: none;
+    color: inherit;
+}
+
+.route:hover{
+    color: #f7f5f4;
+}
+

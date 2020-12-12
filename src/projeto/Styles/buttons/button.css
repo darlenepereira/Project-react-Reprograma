@@ -1,0 +1,67 @@
+.button-primary{
+width: 18rem;
+height: 3rem;
+border-radius: 1.625rem;
+border: none;
+font:1.4rem/1.875rem 'Lato';
+color: var(--button-color);
+background-color: var(--button);
+transition: all 0.3s;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+}
+
+.button-primary:hover{
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    background-color: #f1532c;
+    box-shadow: .1rem .1rem .8rem rgba(192, 127, 105, 0.534);
+}
+
+.button-secondary{
+    width: 11rem;
+    height: 2.6rem;
+    font:1.2rem/1.875rem 'Lato';
+    border-radius: 1.625rem;
+    border: none;
+    color: var(--button-color);
+    background-color: #A8B8ED;
+    outline: none;
+    cursor: pointer;
+
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.button-secondary:hover{
+    background-color: #6180ED;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    box-shadow: .1rem .1rem .8rem rgba(71, 59, 100, 0.534);
+}
+
+.button-tertiary{
+    width: 7.25rem;
+    height: 1.625rem;
+    font:1rem/1.25rem 'Lato';
+    border-radius: 1.625rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: var(--button-color);
+    background-color: #96D4CD;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.button-tertiary:hover{
+    background-color: #75a8a2;
+    transition: all 0.4s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    box-shadow: .1rem .1rem .5rem rgba(94, 158, 160, 0.534);
+}

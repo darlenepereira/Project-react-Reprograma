@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+:root{
+    --nav-body: #F0CDC7;
+    --rodape: #0B2736;
+    --body-section: #F0F3EF;
+    --title:#161414;
+    --subtitle-secondary:#F0715B;
+    --title-card:#0B2736;
+    --text:#3D3835;
+    --container-color:#FFE5AF;
+    --color-cards:#FEFEFE; 
+    --title-card:#0B2736;
+    --body-section-card:#FFE5AF;
+    --nav-title:#161414;
+    --title:#161414;
+    --title-secondary:#F9BC40;
+    --text:#3D3835;
+    --title-card:#0B2736;
+    --button-color:#FEFEFE;
+    --button-tertiaty: #20867B;
+    --button:#f86945;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+    background: #FEFEFE;
+}
+
+body, input, button, textarea{
+    font: 1rem/1.25rem Numito, sans-serif;
+}
+
+/* STYLE TEXT */
+.title-h2{
+    margin: 3.75rem 0 0.625rem 0;
+    text-align: center;
+    font: 1.75rem/1.719rem 'Amaranth';
+    font-weight: 400;
+    color: var(--title);
+}
+
+.subtitle{
+    margin: 3.75rem 0 0.625rem 0;
+    text-align: center;
+    font: 1.75rem/1.719rem 'Amaranth';
+    font-weight: 400;
+    color: var(--subtitle-secondary);
+}
+
+.title-text{
+    text-align: center;
+    font: 1rem/1.5625rem 'Montserrat'; 
+    font-weight: 300;
+    color: var(--text);
+    margin-bottom: 2rem;
+}
+
+
+
+/* STYLE ERRORMESSAGE */
+.error{
+    color: rgb(238, 120, 120);
+    font-size: .8rem;
+    text-align: left;
+}
+
+

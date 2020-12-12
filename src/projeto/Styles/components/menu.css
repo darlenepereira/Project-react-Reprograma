@@ -1,0 +1,42 @@
+nav{
+    background-color: var(--nav-body);
+    background-color: #FDE4DF;
+    color: var(--nav-title);
+    height: 5rem;
+} 
+
+.menu{
+    float: right;
+    width: 32rem;
+    height: 5rem;
+    margin-right:5rem;
+    display: flex;
+}
+
+.image-menu{
+    height: 4.6rem;
+    margin: 0 0 0 5rem;
+}
+
+.menu-list{
+    font: 1rem/0.25em 'Lato', sans-serif;
+    margin: 0 auto;
+    list-style: none;
+    transition: all 0.3s;
+
+    display: flex; 
+    align-items: center;
+}
+
+.menu-list li{
+    margin-left: 2.625rem;
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-list li:hover{
+    color: #F0907F;
+}

@@ -1,0 +1,132 @@
+.modal{
+    background-color: rgba(22, 22, 22, 0.096);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container-form-section{
+    width: 36rem;
+    height: 37rem;
+    border-radius: 1rem;
+    background-color: var(--color-cards);
+    display: flex;
+    flex-direction: column;
+    box-shadow: .1rem .1rem .8rem rgba(0, 0, 0, 0.089);
+}
+
+.close{
+    background-color: initial;
+    outline: none; 
+    height: 2rem;
+    width: 5rem;
+    border:none;
+    position: relative;
+    right: calc(-100% + 5rem);
+    top: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: rgb(180, 169, 169);
+}
+
+.close:hover{
+    color: rgb(39, 36, 36);
+}
+
+.form-title-section{
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    color: #F0715B;
+    font: 1.75rem/1.719rem 'Amaranth';
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.form-section .input-form{
+    height: 2rem;
+    width: 26rem;
+    color: var(--text);
+    border: none;
+    margin-top: 1rem;
+    background-color: initial;
+    background-color: initial;
+    border-bottom: .1rem solid rgb(206, 206, 206);
+    outline: none;
+}
+
+.selection{
+    width: 26rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding:0;
+    
+}
+
+.text-section{
+    text-align: center;
+    font: .98rem/1.25rem 'Montserrat'; 
+    font-weight: 700;
+    color: var(--text);
+}
+
+.input-section{
+    height: 2rem;
+    width: 11rem;
+    border:none;
+    margin-top: .6rem;
+    padding-left: 1.2rem;
+    color: var(--text);
+    background-color: initial;
+    border-bottom: .1rem solid rgb(179, 176, 176);
+    outline: none;
+}   
+
+
+.button-submit{
+    width: 18rem;
+    height: 2.6rem;
+    font:1.2rem/1.875rem 'Lato';
+    border-radius: 1.625rem;
+    color: var(--button-color); 
+    background-color: #A8B8ED;
+    margin: 2rem 0 0 8rem;
+    border-radius: .6rem;
+    cursor: pointer;
+    outline: none;
+    border:none;
+
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    
+}
+
+.button-submit:hover{
+    background-color: #6180ED;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    box-shadow: .2rem .1rem .6rem rgba(71, 59, 100, 0.534);
+}
+
+#agree{
+    margin: 2rem 0 0 8rem;
+}

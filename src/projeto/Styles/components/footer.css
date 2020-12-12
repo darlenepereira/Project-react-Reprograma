@@ -1,0 +1,32 @@
+
+footer{
+    height: 6rem;
+    background: var(--rodape);
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.section-footer{
+    display: flex;
+    width: 72rem;  
+    justify-content: space-around;
+}
+
+.section-footer p{
+    color: #aaaaaa;
+    font: 1rem/1.563rem 'Lato';
+    font: 400;
+}
+
+.section-whats{
+    width:14rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-cards);
+}
+
+.section-whats img{
+    height: 1.3rem;
+    padding-right: 0.5rem; ;
+}

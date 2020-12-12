@@ -1,0 +1,53 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:32rem;
+   background:#FDE4DF;
+}
+
+.contact img{
+    height: 13rem;
+} 
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 26rem;
+    align-items: center;
+    margin-top: 0;
+}
+
+.title-fom{
+    margin: 0 0 0.625rem 0;
+    text-align: center;
+    font: 1.75rem/1.719rem 'Amaranth';
+    font-weight: 400;
+    color: var(--title);
+}
+
+.form .input{
+    height: 3rem;
+    width: 34.688rem;
+    border-radius: .6rem;
+    border:none;
+    margin-top: 1rem;
+    padding: 1.2rem;
+}
+
+.form .message{
+    width: 34.688rem;
+    height: 10.938rem;
+    border-radius: .6rem;
+    border:none;
+    margin-top: 1rem;   
+    padding: 1rem 0 0 1.2rem;
+}
+
+.button-form{
+    margin-top: 1.2rem;
+    outline: none;
+    cursor: pointer;
+}
+
