@@ -1,6 +1,5 @@
 import Menu from "./Menu"
 import Footer from './Footer'
-
 import Gallery from "react-photo-gallery";
 import { photos } from "../Services/PhotosDonation";
 
