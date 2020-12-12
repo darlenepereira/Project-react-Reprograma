@@ -13,9 +13,9 @@ const Header = () => {
             <h3> Quer ter um lar mais divertido?
                 Então, a dica que nós damos a você é: A adote um gatinho ou...
             </h3>
-            <p>Você tamém pode contruibuir com doações</p>
+            <p>Você também pode contruibuir com doações</p>
             <button title='clique e saiba mais' className='button-primary button-one'>
-                <Link to='/Donation' clasName='route'>Saiba Mais</Link>
+                <Link to='/Adoption' clasName='route'>Saiba Mais</Link>
             </button>
             </div>
         </header>
