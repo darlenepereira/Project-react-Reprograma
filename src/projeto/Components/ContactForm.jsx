@@ -22,7 +22,7 @@ const FormContact = () => {
     }
 
     return (
-        <div className='contact' id='contact'>
+        <div className='contact-forms' id='contact'>
             <Formik
                 onSubmit={onSubmit}
                 validationSchema={schema}

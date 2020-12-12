@@ -1,7 +1,7 @@
-.contact{
+.contact-foms{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    margin: auto;
     height:26rem;
    background:#ffffff;
 }
@@ -16,6 +16,8 @@
     width: 40rem;
     height: 26rem;
     align-items: center;
+    margin: 0 auto;
+    padding-bottom: 4rem;
 }
 
 .title-fom{
