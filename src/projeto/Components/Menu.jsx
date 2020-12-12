@@ -13,9 +13,10 @@ const Menu = () => {
                     <li><Link to='/' clasName='routes' id='menu'>Home</Link></li>
                     <li><Link to='/About' clasName='routes'>Sobre</Link></li>
                     <li> <Link to='/Adoption' clasName='routes' >Adoação</Link></li>  
-                    <AnchorLink className='anchor-contact' href='#contact'>
+                    <li> <Link to='/Contact' clasName='routes' >Contato</Link></li>  
+                    {/* <AnchorLink className='anchor-contact' href='#contact'>
                      <li>Contato</li>
-                    </AnchorLink>
+                    </AnchorLink> */}
                     </ul> 
                 </div>
             </nav>

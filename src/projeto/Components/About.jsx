@@ -3,6 +3,7 @@ import Menu from "./Menu"
 import Footer from '../Components/Footer'
 import Gallery from "react-photo-gallery";
 import { photos } from "../Services/Photos";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const About = () => {
     
