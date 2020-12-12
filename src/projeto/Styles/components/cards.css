@@ -1,4 +1,5 @@
 .container{
+    width: 100%;
     padding-left: 7.2rem;
     background: var(--container-color); 
     outline: none;
