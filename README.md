@@ -23,6 +23,5 @@
  - [Formik](https://formik.org/docs/api/formik)
  - [Figma](https://www.figma.com/)
  
- - [![Linkedin Badge](https://img.shields.io/badge/-Darlene%20Pereira-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/darlene-pereira/)](https://www.linkedin.com/in/darlene-pereira/) [![Behance Badge](https://img.shields.io/badge/-Darlene%20Pereira-6633cc?style=flat-square&logo=Behance&logoColor=white&link=https://www.behance.net/darleneplima)](https://www.behance.net/darleneplima) [![Gmail Badge](https://img.shields.io/badge/-darlene92pereira@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:darlene92pereira@gmail.com)](mailto:darlene92pereira@gmail.com)
-
+ 
 <p align="center">desenvolvido 💜 por Darlene Pereira 💻 😊</p>
