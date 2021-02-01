@@ -11,7 +11,7 @@ const Menu = () => {
                 <ul className='menu-list'>
                     <li><Link to='/' clasName='routes' id='menu'>Home</Link></li>
                     <li><Link to='/About' clasName='routes'>Sobre</Link></li>
-                    <li> <Link to='/Adoption' clasName='routes' >Adoação</Link></li>  
+                    <li> <Link to='/Adoption' clasName='routes' >Adoção</Link></li>  
                     <li> <Link to='/Contact' clasName='routes' >Contato</Link></li>  
                     </ul> 
                 </div>
