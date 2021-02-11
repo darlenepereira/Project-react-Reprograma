@@ -24,7 +24,7 @@ const Cards = () => {
     return (
         <>
             <div className='title'>
-                <h2 className='title-h2'>Gatinhos para adoação</h2>
+                <h2 className='title-h2'>Gatinhos para adoção</h2>
                 <p  className='title-text text-cards'>Qual gatinho você vai chamar de seu para trazer alegria para o seu lar? É só clicar em adotar que entramos em contato :)
                 </p>
             </div>
